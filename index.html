@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-end Quiz</title>
+    <link rel="stylesheet" href="assets/quiz.css" />
+    <script src="assets/quiz.js" defer></script>
+  </head>
+  <body>
+    <div class="theme-container">
+      <div class="accessibility">
+        <img src="assets/images/accessibility-image.svg" alt="" />
+        <h3>Accessibility</h3>
+      </div>
+      <div class="theme">
+        <img src="assets/images/light-mode.svg" alt="" />
+        <input id="themeChangeInput" type="range" step="1" min="1" max="2" value="1" />
+        <img src="assets/images/dark-mode.svg" alt="" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="quiz-text">
+        <h2>Welcome to the</h2>
+        <h3>Frontend Quiz!</h3>
+        <p>Pick a subject to get started.</p>
+      </div>
+      <div class="selections">
+        <button id="htmlBtn"><img src="assets/images/html-img.svg" alt="">HTML</button>
+        <button id="cssBtn"><img src="assets/images/css-img.svg" alt="">CSS</button>
+        <button id="jsBtn"><img src="assets/images/js-img.svg" alt="">Javascript</button>
+        <button id="acsbltyBtn"><img src="assets/images/accessibility-image.svg" alt="">Accessibility</button>
+      </div>
+    </div>
+  </body>
+</html>
